@@ -1,0 +1,70 @@
+<style>
+  .dropdown-content {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    background: #03002e;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .dropdown-btn {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-content a {
+    color: #fff !important;
+    text-decoration: none;  /* Menghilangkan garis bawah */
+    transition: color 0.2s;
+  }
+  .dropdown-content a:hover {
+    color: #ffeb3b !important; /* Kuning saat hover, opsional */
+  }
+  .dropdown-content li {
+    margin-bottom: 10px;  /* Spacing antar list item */
+  }
+</style>
+
+<button class="dropdown-btn" onclick="toggleDropdown()">.</button>
+<div id="dropdownLinks" class="dropdown-content">
+  <p>Our Affiliate Official Link with Highest Winning Rate in Bangladesh:</p>
+  <ul>
+    <li><strong><a href="https://asha777-casino.com/">ASHA777</a></strong> | Bangladesh's Home of Login Online Casino App</li>
+    <li><strong><a href="https://www.asha-777.com/">ASHA777</a></strong> - Bangladesh's Leading Casino & Sports Betting</li>
+    <li><strong><a href="https://bridgeil.com/">BEE999</a></strong> - Bangladesh's Highest Winning Rate Get Free ৳9K</li>
+    <li><strong><a href="https://bee999bet.com/">BEE999</a></strong></li>
+    <li><strong><a href="https://r777bd-app.com/">R777</a></strong> | Play Now Get Free +৳1000 Special Bangladesh</li>
+    <li><strong><a href="https://r777bd-casino.com/">R777</a></strong> | বাংলাদেশের সেরা Casino এবং বেট প্ল্যাটফর্ম অ্যাপ</li>
+    <li><strong><a href="https://r777bet-bd.com/">R777</a></strong> - Play Bet on Top BD Casino App Get Free 777K৳</li>
+    <li><strong><a href="https://taka999.art/">TK999</a></strong> - Top Tier Casino Platform & Bet App Bangladesh</li>
+    <li><strong><a href="https://tk-bet.art/">TK999</a></strong> - TK999.com Official Casino</li>
+    <li><strong><a href="https://worldspiritual.com/">TK999</a></strong> - Login Live Casino Games Online App Bangladesh</li>
+    <li><strong><a href="https://jitabet-app.com/">JITABET</a></strong></li>
+    <li><strong><a href="https://www.jitaweb.com/">JITABET</a></strong> : Bangladesh's Top Ace Login Live Casino</li>
+    <li><strong><a href="https://bdfoodmart.com/">HEHE555</a></strong> - BD One Platform Casino and Online Bet App</li>
+    <li><strong><a href="https://hehe555bet.com/">HEHE555</a></strong> - The Best Live Bet Casino Games App Bangladesh</li>
+    <li><strong><a href="https://macrio.org/">BETJDB</a></strong> - The Newest Bangladesh's Casino Online Mobile App</li>
+    <li><strong><a href="https://betjdb-login.com/">BETJDB</a></strong> — Bangladesh's Casino Live with Highest Jackpot</li>
+    <li><strong><a href="https://www.ace-365.net/">ACE365</a></strong> - Bangladesh's Top Fun Casino & Bet Platform</li>
+    <li><strong><a href="https://arabicopenuniversity.com/">JEETBUZZ</a></strong> - Login Bangladesh's Live Cricket Betting</li>
+    <li><strong><a href="https://macadamrealestate.com/">JAYA9</a></strong> - Login Best Bangladesh's Casino Online App +9K৳</li>
+    <li><strong><a href="https://natureobservances.com/">CRICKEX</a></strong> - Play Bet on Bangladesh's App Get Free ৳7K</li>
+    <li><strong><a href="https://ck-44.com/">CK444</a></strong> - Login The Top of Bangladesh's Casino Hub Stop</li>
+    <li><strong><a href="https://crazytimerecords.com/">CRAZY TIME</a></strong> - Live Daily Result Score Bangladesh's App</li>
+    <li><strong><a href="https://get-rupee.com/">MCW</a></strong></li>
+    <li><strong><a href="https://pratikdijital.com/">PBC88</a></strong> : Bangladesh's Favorite Online Casino Bet</li>
+    <li><strong><a href="https://wegotyourtickets.com/">JEETWIN</a></strong> | Some of the Best Game Providers and Some Winning Options In Bangladesh</li>
+    <li><strong><a href="https://l89.co.in/">L89</a></strong> - The Highest Jackpot Bonus Casino Game Bet in BD</li>
+    <li><strong><a href="https://l89-login.com/">L89</a></strong></li>
+    <li><strong><a href="https://jitalivebet.com/">JITALIVE</a></strong> - Login The Best Casino App for Bangladesh</li>
+    <li><strong><a href="https://ems-casino.com/">EMS CASINO</a></strong> - Bangladesh's Top Online Betting Platform</li>
+  </ul>
+</div>
+
+<script>
+  function toggleDropdown() {
+    var x = document.getElementById('dropdownLinks');
+    x.style.display = (x.style.display === 'block') ? 'none' : 'block';
+  }
+</script>
