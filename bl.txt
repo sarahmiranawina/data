@@ -9,9 +9,8 @@
     color: #fff;
   }
   .dropdown-btn {
-    color: #fff;
     border: none;
-    cursor: pointer;
+
   }
   .dropdown-content a {
     color: #fff !important;
