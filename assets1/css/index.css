@@ -695,3 +695,65 @@ article,aside,footer,header,nav,section {
 	display: flex;
 	margin-left: 5px;
 }
+h1, h2, h3, h4 {
+    margin-bottom: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    text-align: left;
+    /* Remove if you want to keep text-align from inline style */
+}
+h1 {
+    color: #030f55; /* Brand Yellow */
+    font-size: 2rem;
+    border-left: 5px solid #030f55;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 14px;
+    background: rgba(110, 101, 238, 0.08);
+    border-radius: 0 12px 12px 0;
+}
+h2 {
+    color: #270207; /* Brand Yellow */
+    font-size: 1.5rem;
+    border-left: 5px solid #270207;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 14px;
+    background: rgba(238, 101, 135, 0.08);
+    border-radius: 0 12px 12px 0;
+}
+h3 {
+    color: #012212; /* Neon green for contrast */
+    font-size: 1.3rem;
+    border-left: 4px solid #012212;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 12px;
+    background: rgba(89, 201, 145, 0.08);
+    border-radius: 0 10px 10px 0;
+}
+h4 {
+    color: #250d01; /* Brand Pink */
+    font-size: 1.1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 10px;
+    background: rgba(241, 164, 128, 0.08);
+    border-radius: 0 8px 8px 0;
+}
+ul, ol {
+    margin-top: 0.8em;
+    margin-bottom: 1.5em;
+    padding-left: 1.4em;
+}
+ul {
+    list-style-type: disc;
+}
+ol {
+    list-style-type: decimal;
+}
