@@ -695,16 +695,3 @@ article,aside,footer,header,nav,section {
 	display: flex;
 	margin-left: 5px;
 }
-ul, ol {
-  margin-top: 0.8em;
-  margin-bottom: 1.5em;
-  padding-left: 1.4em;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
-}
