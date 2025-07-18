@@ -1,0 +1,120 @@
+body,html {
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 12px;
+    -webkit-text-size-adjust: none
+}
+
+a,a:active,a:hover,a:link,a:visited {
+    text-decoration: none
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    min-width: 1188px
+}
+
+#container,body {
+    background: #e8f6ff;
+}
+
+#container {
+    visibility: hidden
+}
+
+#pdp-nav {
+    background: #e8f6ff;
+}
+
+#root.pdp-block {
+    width: 1188px;
+    background-color: #e8f6ff;
+    margin: auto;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    padding-bottom: 24px;
+    overflow: hidden
+}
+
+.pdp-block__main-information {
+    background: #e8f6ff;
+    padding-bottom: 16px
+}
+
+.pdp-block__gallery {
+    width: 338px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.pdp-block__main-information-detail {
+    display: inline-block;
+    width: calc(100% - 338px);
+    vertical-align: top
+}
+
+.pdp-block__product-detail {
+    display: inline-block;
+    width: calc(100% - 330px);
+    vertical-align: top;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.pdp-block__delivery-seller {
+    width: 330px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.pdp-block__rating-questions-summary {
+    display: table;
+    width: 100%
+}
+
+.pdp-block__rating-questions {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left
+}
+
+.pdp-block__share {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle
+}
+
+.desktop-footer {
+    display: none
+}
+
+.pdp-block__additional-information {
+    width: 100%;
+    margin-top: 12px;
+    table-layout: fixed
+}
+
+.pdp-layout-column-1 .pdp-block__recommendation,.pdp-layout-column-2 .pdp-block__product-description {
+    width: calc(100% - 200px)
+}
+
+.pdp-block__product-ads,.pdp-block__product-description {
+    display: inline-block;
+    vertical-align: top
+}
+
+.fixed-width-full {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 100%
+}
+
+.background-2 {
+    background-color: #001c37;
+    margin-left: 8px;
+}
